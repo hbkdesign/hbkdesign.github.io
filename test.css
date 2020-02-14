@@ -1,0 +1,604 @@
+body{
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin-left: 630px;
+        height: 100%;
+        width: 100%;
+     }
+}
+
+.navbar {
+    background: #101010;
+    
+}
+
+.navbar-brand{
+    margin-left: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    font-size: 27px;
+}
+
+.nav-item{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* parallax */
+.intro{
+   height:600px;
+    width:100%;
+    background: linear-gradient(to bottom, rgba(41, 41, 41, 0.411), rgba(39, 39, 39, 0.322)),
+    url(../img/slider.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: table;
+    align-items: center;
+
+}
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width:768px) {
+    .intro {
+      background-attachment: scroll;
+      height:100%;
+    }
+
+  }
+
+  
+
+  
+
+
+.hello {
+    margin-top:250px;
+    padding-bottom: 200px;
+     font-size:50px;
+    font-family: 'Libre Caslon Display', serif;
+    font-weight: 550;
+    
+}
+
+@media screen and (max-width: 479px){
+    .hello{
+        padding-bottom: 200px;
+    }
+}
+
+.typed{
+
+    font-size: 25px;
+    font-family: 'Libre Caslon Display', serif;
+    
+}
+
+#home{
+    text-align: center;
+}
+
+/* ABOUT SECTION */
+/* Header  */
+
+
+.info-h6{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+color: #939388;
+font-size: 20px;
+letter-spacing: 2px;
+
+
+
+}
+
+
+@media screen and (max-width: 479px) {
+    .info-h6{
+        margin-top: 220px;
+        margin-left: 5px;
+        font-size: 12px;
+      
+    }
+
+}
+
+.header-about{
+   text-align: center;
+    margin-top: 50px;
+    font-family: 'Libre Caslon Display', serif;
+   
+    letter-spacing: 1px;
+}
+
+.me{
+    font-family: 'Libre Caslon Display', serif;
+    
+}
+
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+    .header-about{ font-size:5px;
+        
+    }
+    
+    }
+
+.about-me-h6{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+color: #939388;
+font-size: 20px;
+letter-spacing: 2px;
+}
+
+@media screen and (max-width: 479px){
+    .about-me-h6{
+        margin-left: 50px;
+        
+    }
+}
+
+.about-p{
+    font-family: 'Rambla', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+    color: #939388;
+}
+
+
+/* END Header */
+
+/* buttons */
+
+.btn-about{
+    margin-top: 15px;
+    color: white;
+    background:#111111;
+    border: 2px solid #111111;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-about:hover{
+    color: #111111;
+    background: white;
+    font-weight: 600;
+}
+
+/* END ABOUT SECTION */
+
+/* START MY-SKILLS */
+.undraw-2{
+    margin-top: 50px;
+    text-align: center;
+}
+.undraw-2 img{
+    max-width: 400px;
+}
+
+@media screen and (max-width: 479px) {
+    .undraw-2 img{
+        width: 300px;
+    }
+}
+
+
+
+.skills{
+    
+    background:#93938810; 
+    
+}
+
+
+/* progress bar  */
+.progress-bar{
+    color: white;
+    background: black;
+  
+}
+
+
+.progress-title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 350;
+    font-size: 18px;
+
+}
+
+/* end progress bar  */
+
+.my-skills-p{
+    margin-top: 100px;
+}
+.my-skills-p p{
+    font-family: 'Rambla', sans-serif;
+    font-size: 17px;
+    color: #939388;
+    text-align: start;
+
+
+}
+
+.pro-bars{
+    
+margin-top: 100px;
+}
+
+@media (max-width: 479px){
+    .pro-bars{
+        margin-top: 650px;
+        
+    }
+    .progress-bar{
+        height: 15px;
+    }
+    .progress{
+        height:15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* start of medium tablet styles */
+    .pro-bars{
+        margin-top: 200px;
+        
+    }
+    .progress-bar{
+        height: 15px;
+    }
+    .progress{
+        height:15px;
+    }
+    
+    }
+
+.skills-header{
+    margin-right:480px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 479px) {
+    .skills-header{
+        font-size: 20px;
+        margin-right: 0px;
+    }
+}
+
+
+
+.abilities{
+    margin-right:560px;
+    color: #939388;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+/* START SERVICES */
+
+.box-main{
+    
+    margin-bottom: 100px;
+}
+.serv-header p {
+    color: #939388;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 3px;
+    
+}
+
+.serv-header h2{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+
+.box{
+    margin-top: 100px;
+}
+
+@media (max-width: 479px) {
+    .box{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.box p{
+    font-family: 'Rambla', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+    color: #939388;
+}
+
+.box h3{
+    font-size: 18px;
+    font-family: 'Rambla', sans-serif;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.icons-boxes{
+    font-size: 30px;
+}
+/* END MY SKILLS */
+
+/* PARALLAX-2 */
+
+.parallax-2{
+    height:150px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(41, 41, 41, 0.452), rgba(39, 39, 39, 0.425)),
+    url(../img/parallax.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: table;
+    align-items: center;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width:768px) {
+    .parallax-2 {
+      background-attachment: scroll;
+    }
+  }
+
+/* END PARALLAX-2 */
+/* start 7 questions */
+
+.card{
+    border-color: none;
+    border:none;
+}
+
+.card-header{
+    
+    border-bottom: none;
+}
+
+
+.card-body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.questions-header h2{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:600;
+    letter-spacing: 3px;
+}
+ 
+.questions-header img {
+    margin-bottom: 70px;
+    
+}
+
+
+.btn{
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+}
+
+.btn:hover{
+    color: red;
+}
+
+
+
+/* end 7 questions */
+
+
+.parallax-3{
+    height:300px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(41, 41, 41, 0.452), rgba(39, 39, 39, 0.425)),
+    url(../img/skyline.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: table;
+    align-items: center;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 768px) {
+    .parallax-3 {
+      background-attachment: scroll;
+    }
+  }
+
+/* START HELP AREA */
+
+.help-main{
+    background: #22294A;
+    color: white;
+}
+
+.help-header h3{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+
+.help-header h6{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+.help-list{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    margin-left: 80px;
+    
+    
+}
+
+@media (max-width: 479px) {
+    .help-list{
+        margin-left: 25px;
+    }
+}
+
+.help-list2{
+    font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+.hand-shake{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+/* END HELP AREA */
+
+/* START CONTACT SECTION */
+input, textarea {
+    outline: none !important;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    transition: all .5s ease;
+
+    padding-top: 30px;
+ }
+
+ button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.contact-header h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+ }
+
+ .contact-header p{
+    font-family: 'Rambla', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+ }
+
+ .contact-img{
+    width: 350px;
+    
+}
+
+.line2{position: relative;
+    margin-top:px;
+    }
+    
+     .line2::before{
+         position: absolute;
+         content: '';
+         color:#6C63FF;
+         width: 50px;
+         height:5px;
+          
+          
+          margin-left: 40px;
+          bottom: -15px;
+         margin-top: 20px;
+    
+         background: #575A89;
+     }
+
+     .btn-contact{
+        background: #575A89;
+        border: 2px solid #575A89;
+        padding: 5px;
+       font-family: 'Rambla', sans-serif;
+       font-size: 20px;
+       color: white;
+    }
+    
+    @media (max-width: 479px){
+        .contact-img{
+            width:150px;
+            margin-top: 70px;
+        }
+        .btn-contact{
+            padding: 0;
+           
+        }
+    }
+
+    .contact-p,.email-p,.social-media{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 600;
+
+     }
+
+     .media-icons a{
+        color: rgba(0, 0, 0, 0.377);
+        font-size: 32px;
+        padding: 10px;
+    }
+
+    .media-icons a:hover{
+        color: black;
+       
+    }
+
+ /* END CONTACT SECTION */
+
+/* @media (max-width: 479px) */
+
+
+/* LANSCAPE ORIENTATION */
+
+@media (max-width: 479px) and (orientation : landscape) {
+    .box{
+        font-size: 10px;
+    }
+}
