@@ -68,6 +68,12 @@ body{
     
 }
 
+@media screen and (max-width: 479px){
+    .hello{
+        padding-bottom: 200px;
+    }
+}
+
 .typed{
 
     font-size: 25px;
