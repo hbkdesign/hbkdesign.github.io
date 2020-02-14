@@ -1,5 +1,6 @@
 body{
-    height: 1800px;
+    height:100%;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -41,7 +42,7 @@ body{
 
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width:768px) {
     .intro {
       background-attachment: scroll;
     }
@@ -347,7 +348,7 @@ margin-top: 100px;
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width:768px) {
     .parallax-2 {
       background-attachment: scroll;
     }
@@ -423,7 +424,7 @@ margin-top: 100px;
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width:768px) {
     .parallax-3 {
       background-attachment: scroll;
     }
