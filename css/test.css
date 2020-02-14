@@ -8,6 +8,8 @@ body{
 @media (min-width: 768px) {
     .navbar-nav {
         margin-left: 630px;
+        height: 100%;
+        width: 100%;
      }
 }
 
@@ -59,8 +61,8 @@ body{
 
 .hello {
     margin-top:250px;
-    
-    font-size:50px;
+    padding-bottom: 200px;
+     font-size:50px;
     font-family: 'Libre Caslon Display', serif;
     font-weight: 550;
     
