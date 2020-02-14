@@ -45,7 +45,13 @@ body{
     .intro {
       background-attachment: scroll;
     }
+
   }
+
+  
+
+  
+
 
 .hello {
     margin-top:250px;
@@ -340,6 +346,13 @@ margin-top: 100px;
     align-items: center;
 }
 
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax-2 {
+      background-attachment: scroll;
+    }
+  }
+
 /* END PARALLAX-2 */
 /* start 7 questions */
 
@@ -408,6 +421,13 @@ margin-top: 100px;
     display: table;
     align-items: center;
 }
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax-3 {
+      background-attachment: scroll;
+    }
+  }
 
 /* START HELP AREA */
 
