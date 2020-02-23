@@ -5,9 +5,16 @@ body{
     padding: 0;
 }
 
+@media screen and (max-width: 479px) {
+   body{
+       margin: 0;
+       padding: 0;
+   }
+}
+
 @media (min-width: 768px) {
     .navbar-nav {
-        margin-left: 630px;
+        margin-left: 600px;
         height: 100%;
         width: 100%;
      }
@@ -72,6 +79,13 @@ body{
     .hello{
         padding-bottom: 200px;
     }
+}
+
+@media screen and (max-width: 768px){
+    .hello{
+        padding-bottom: 200px;
+    }
+    
 }
 
 .typed{
@@ -189,7 +203,7 @@ letter-spacing: 2px;
 
 @media screen and (max-width: 479px) {
     .undraw-2 img{
-        width: 300px;
+        width: 100%;
     }
 }
 
@@ -397,7 +411,15 @@ margin-top: 100px;
  
 .questions-header img {
     margin-bottom: 70px;
+    width:500px;
+    height: auto;
     
+}
+@media screen and (max-width: 479px) {
+    .questions-header img{
+        width: 100%;
+        
+    }
 }
 
 
